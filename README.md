@@ -16,11 +16,8 @@ python ped_sort_and_renumber <pedigree_file>
     Input file format:
 
         CSV (comma-delimited)
-
         No header row
-
         Columns: Animal, Sire, Dam
-
         Missing parent values can be: 0, ., or -
 
 Example input:
@@ -40,9 +37,7 @@ Output files:
     <input_file>.SORTED
 
         Pedigree sorted topologically so that ancestors precede descendants
-
         Missing parents are retained as-is (e.g., 0, ., etc.)
-
         Example:
 
     A,0,0
@@ -53,7 +48,6 @@ Output files:
 <input_file>.SORTED_RENUM
 
     All unique IDs (animals, sires, dams) are renumbered with consistent integer identifiers
-
     The fourth column retains the original ID for reference
 
     Example:
