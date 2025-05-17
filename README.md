@@ -11,7 +11,7 @@ ped_sort_and_renumber is a highly efficient Python utility designed to process l
 This is particularly useful for preparing input files for genetic analysis software or simulation tools that require pedigrees in a specific order or numeric ID format as well as sorted pedigree.
 
 ## Usage:
-python ped_sort_and_renumber <pedigree_file>
+### python ped_sort_and_renumber <pedigree_file>
 
 ## Input file format:
 
