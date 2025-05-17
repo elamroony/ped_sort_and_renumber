@@ -36,8 +36,8 @@ Output files:
 
     1. <pedigree_file>.SORTED
 
-        Pedigree sorted topologically so that ancestors precede descendants
-        Missing parents are retained as-is (e.g., 0, ., etc.)
+    Pedigree sorted topologically so that ancestors precede descendants
+    Missing parents are retained as-is (e.g., 0, ., etc.)
 
     Example:
     A,0,0
@@ -59,7 +59,7 @@ Output files:
 
     2. <pedigree_file>.SORTED_RENUM
 
-    All unique IDs (animals, sires, dams) are renumbered with consistent integer identifiers. Offspring ID is always larger than the IDs of both parents. The fourth column retains the original ID for reference
+    All unique IDs (animals, sires, dams) are renumbered with consistent integer identifiers. The fourth column retains the original ID for reference
 
     Example:
     1,0,0,A
