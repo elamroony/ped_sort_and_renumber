@@ -32,27 +32,49 @@ python ped_sort_and_renumber <pedigree_file>
     6,4,11
     60,1,2
 
-Output files:
+    Output files:
 
     <pedigree_file>.SORTED
 
         Pedigree sorted topologically so that ancestors precede descendants
         Missing parents are retained as-is (e.g., 0, ., etc.)
 
-        Example:
-            A,0,0
-            1,A,0
-            4,0,0
-            ...
+    Example:
+    A,0,0
+    1,A,0
+    4,0,0
+    B,0,0
+    11,0,0
+    2,1,B
+    6,4,11
+    19,0,0
+    5,0,0
+    50,4,19
+    3,1,2
+    10,5,6
+    k,1,B
+    R,A,19
+    60,1,2
 
-<pedigree_file>.SORTED_RENUM
 
-    All unique IDs (animals, sires, dams) are renumbered with consistent integer identifiers
-    The fourth column retains the original ID for reference
+    <pedigree_file>.SORTED_RENUM
+
+    All unique IDs (animals, sires, dams) are renumbered with consistent integer identifiers. Offspring ID is always larger than the IDs of both parents. The fourth column retains the original ID for reference
 
     Example:
-        1,0,0,A
-        2,1,0,1
-        3,0,0,4
-        ...
+    1,0,0,A
+    2,1,0,1
+    3,0,0,4
+    4,0,0,B
+    5,0,0,11
+    6,2,4,2
+    7,3,5,6
+    8,0,0,19
+    9,0,0,5
+    10,3,8,50
+    11,2,6,3
+    12,9,7,10
+    13,2,4,k
+    14,1,8,R
+    15,2,6,60
 
