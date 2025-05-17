@@ -13,7 +13,7 @@ This is particularly useful for preparing input files for genetic analysis softw
 Usage:
 python ped_sort_and_renumber <pedigree_file>
 
-    Input file format:
+Input file format:
 
         CSV (comma-delimited)
         No header row
@@ -32,7 +32,7 @@ python ped_sort_and_renumber <pedigree_file>
     6,4,11
     60,1,2
 
-    Output files:
+Output files:
 
     <pedigree_file>.SORTED
 
