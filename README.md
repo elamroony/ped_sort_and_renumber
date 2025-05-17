@@ -1,7 +1,7 @@
 # ped_sort_and_renumber
 ped_sort_and_renumber — A fast pedigree sorting and renumbering tool. It is optimized for speed and efficiently handling large pedigree files with complex ancestor-descendant relationships.
 
-Description:
+##Description:
 
 ped_sort_and_renumber is a highly efficient Python utility designed to process large pedigree files quickly. It performs two main functions:
 
@@ -10,10 +10,10 @@ ped_sort_and_renumber is a highly efficient Python utility designed to process l
 
 This is particularly useful for preparing input files for genetic analysis software or simulation tools that require pedigrees in a specific order or numeric ID format as well as sorted pedigree.
 
-Usage:
+##Usage:
 python ped_sort_and_renumber <pedigree_file>
 
-Input file format:
+##Input file format:
 
     CSV (comma-delimited)
     No header row
@@ -31,7 +31,7 @@ Input file format:
     6,4,11
     60,1,2
 
-Output files:
+##Output files:
 
     1. <pedigree_file>.SORTED
 
