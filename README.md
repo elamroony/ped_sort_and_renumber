@@ -20,17 +20,17 @@ python ped_sort_and_renumber <pedigree_file>
         Columns: Animal, Sire, Dam
         Missing parent values can be: 0, ., or -
 
-Example input:
+    Example input:
 
-50,4,19
-1,A,0
-2,1,B
-3,1,2
-10,5,6
-k,1,B
-R,A,19
-6,4,11
-60,1,2
+    50,4,19
+    1,A,0
+    2,1,B
+    3,1,2
+    10,5,6
+    k,1,B
+    R,A,19
+    6,4,11
+    60,1,2
 
 Output files:
 
