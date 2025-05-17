@@ -34,7 +34,7 @@ Input file format:
 
 Output files:
 
-    <pedigree_file>.SORTED
+    1. <pedigree_file>.SORTED
 
         Pedigree sorted topologically so that ancestors precede descendants
         Missing parents are retained as-is (e.g., 0, ., etc.)
@@ -57,7 +57,7 @@ Output files:
     60,1,2
 
 
-    <pedigree_file>.SORTED_RENUM
+    2. <pedigree_file>.SORTED_RENUM
 
     All unique IDs (animals, sires, dams) are renumbered with consistent integer identifiers. Offspring ID is always larger than the IDs of both parents. The fourth column retains the original ID for reference
 
