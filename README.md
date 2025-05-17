@@ -34,24 +34,23 @@ python ped_sort_and_renumber <pedigree_file>
 
 Output files:
 
-    <input_file>.SORTED
+    <pedigree_file>.SORTED
 
         Pedigree sorted topologically so that ancestors precede descendants
         Missing parents are retained as-is (e.g., 0, ., etc.)
+
         Example:
+            A,0,0
+            1,A,0
+            4,0,0
+            ...
 
-    A,0,0
-    1,A,0
-    4,0,0
-    ...
-
-<input_file>.SORTED_RENUM
+<pedigree_file>.SORTED_RENUM
 
     All unique IDs (animals, sires, dams) are renumbered with consistent integer identifiers
     The fourth column retains the original ID for reference
 
     Example:
-
         1,0,0,A
         2,1,0,1
         3,0,0,4
