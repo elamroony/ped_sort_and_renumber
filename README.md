@@ -5,8 +5,8 @@ Description:
 
 ped_sort_and_renumber is a highly efficient Python utility designed to process large pedigree files quickly. It performs two main functions:
 
-    1. Topological Sorting of pedigree records to ensure ancestors (sire/dam) appear before their descendants.
-    2. Renumbering of all unique IDs (animals, sires, and dams) into a consistent integer-based format, while retaining the original ID for traceability.
+1. Topological Sorting of pedigree records to ensure ancestors (sire/dam) appear before their descendants.
+2. Renumbering of all unique IDs (animals, sires, and dams) into a consistent integer-based format, while retaining the original ID for traceability.
 
 This is particularly useful for preparing input files for genetic analysis software or simulation tools that require pedigrees in a specific order or numeric ID format as well as sorted pedigree.
 
